@@ -1,0 +1,6 @@
+defaults:
+  - adapter: linear_2048_10
+  - backbone: resnet50
+  - head: identity_head
+  
+_target_: models.CIFAR10Model

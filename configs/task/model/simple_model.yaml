@@ -1,0 +1,5 @@
+defaults:
+  - adapter: linear_512_10
+  - backbone: resnet18
+  - head: identity_head
+  
